@@ -1,3 +1,9 @@
 hello test
 
 ffmpeg -i "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8" -t 10 test.mp3
+
+
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  User git
