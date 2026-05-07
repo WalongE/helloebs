@@ -19,7 +19,7 @@ def record():
     output_path = make_output_path()
 
     cmd = [
-        "ffmpeg",
+        "/usr/bin/ffmpeg",
         "-y",
         "-i", STREAM_URL,
         "-t", str(RECORD_SECONDS),
